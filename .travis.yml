@@ -1,0 +1,15 @@
+language: python
+
+python:
+    - "3.5"
+
+sudo: required
+
+install:
+    - pip install flake8
+
+before_script:
+    - flake8 codigo_avulso_test_tutorial
+
+script:
+    - run setup.py test
