@@ -14,4 +14,3 @@ class Circulo(FiguraGeometrica):
     # Retorna o perimetro do circulo
     def get_perimetro(self):
         return 2 * math.pi * self.raio
-
